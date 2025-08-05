@@ -264,7 +264,7 @@
     <!-- Main content -->
     <div class="container">
         <h1>Our Special Song ❤️</h1>
-        <p class="instructions">This song was playing when we first slow danced under the stars...</p>
+        <p class="instructions">The song which both of us shared...</p>
         
         <div class="password-box">
             <p><em>Can you remember the song title?</em></p>
@@ -337,12 +337,12 @@
         // Check song and trigger transition
         function checkSong() {
             const songInput = document.getElementById("song-input").value.toLowerCase();
-            const correctSong = "perfect"; // Replace with your song
+            const correctSong = "piyu bole"; // Replace with your song
             const resultMessage = document.getElementById("result-message");
             
             if (songInput.includes(correctSong)) {
                 // Show success
-                resultMessage.textContent = "Yes! This song will always remind me of you ❤️";
+                resultMessage.textContent = "Yes! This is the song we sang together ❤️";
                 resultMessage.className = "success";
                 
                 // Create heart explosion
